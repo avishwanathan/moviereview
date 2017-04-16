@@ -53,8 +53,8 @@
       <h2>Suggested Movies</h2>
 
     <div class="row" id="imges">
-
-  <div class="small-6 large-3 columns">
+   
+<div class="small-6 large-3 columns">
     <img src="images/prdt1.png"  alt="prdtimg">
    </div>
   <div class="small-6 large-3 columns">
@@ -66,7 +66,6 @@
    <div class="small-6 large-3 margin columns">
      <img src="images/prdt4.png"  alt="prdtimg">
     </div>
-
 
 </div>
 

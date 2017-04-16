@@ -49,8 +49,12 @@
 
 					echo "<h2>Comments</h2>";
 					echo "<div class=\"small-centered columns\" id=\"comments\">";
+					
+					
 					$commquery = "select comment_username,comment_text,comment_timestamp from tbl_comments where comment_movie = '{$row['movies_title']}' order by comment_timestamp desc";
+					
 					$comm = mysqli_query($link, $commquery);
+					
 					while($row = mysqli_fetch_array($comm))
 					{
 
