@@ -122,6 +122,46 @@ margin-bottom: 2%;
 
     }
 	
+	#submitbut{
+	
+	background-color: #830101;
+	padding: 0.3em;
+	border-radius: 0.4em;
+	color: #ffffff;	
+		
+		
+	}
+	
+	#content a {
+		
+	color: #830101;	
+		
+	}
+	
+	#content a:hover {
+		
+	color: #360000;	
+		
+	}
+	
+	
+	.userinfo{
+		
+		
+	background-color: #830101;	
+	color: #ffffff;
+	
+	}
+	
+	.commenttext{
+		
+	padding: 1.5%;
+	font-style: italic;	
+	font-size: 0.8em;
+		
+	}
+
+	
 
 body
 {

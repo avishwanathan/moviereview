@@ -44,7 +44,7 @@
 
 					<input type=\"text\" class=\"hidden\" id=\"movie\" name=\"movie\" value={$row['movies_title']}>
 <br>
-					<input type=\"submit\" name=\"submit\" value=\"Submit\">
+					<input type=\"submit\" name=\"submit\" id=\"submitbut\" value=\"Submit\">
 </form></div>";
 
 					echo "<h2>Comments</h2>";
@@ -54,14 +54,14 @@
 					while($row = mysqli_fetch_array($comm))
 					{
 
-					echo "<div class=\"row\"><p class=\"small-3 small-push-3 columns\">{$row['comment_username']}</p>";
+					echo "<div class=\"userinfo row\"><p class=\"small-3 small-push-3 columns\">{$row['comment_username']}</p>";
 					echo "<p class=\"small-4 small-pull-2 columns\">{$row['comment_timestamp']}</p></div>";
-					echo "<p class=\"text-center\">{$row['comment_text']}</p>";
+					echo "<p class=\"commenttext text-center\">{$row['comment_text']}</p>";
 				
 }
-	echo "</div>";
-	echo "</div>";
-		echo "</div>";
+					echo "</div>";
+					echo "</div>";
+					echo "</div>";
 
 
                 }
